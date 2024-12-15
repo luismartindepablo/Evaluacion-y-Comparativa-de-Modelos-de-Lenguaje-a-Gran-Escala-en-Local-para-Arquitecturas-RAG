@@ -1,0 +1,74 @@
+[
+  {
+      "input": "¿Cuál es el nombre comercial del producto fitosanitario descrito en el documento?",
+      "expected_output": "CODIMUR 50",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué ingrediente activo contiene CODIMUR 50 y en qué concentración?",
+      "expected_output": "Oxicloruro de cobre al 50% (expresado en Cu).",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Para qué tipo de usuario está autorizado este producto?",
+      "expected_output": "Uso profesional agrario.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Cuáles son los principales cultivos para los que se autoriza el uso de CODIMUR 50?",
+      "expected_output": "Almendro, frutales de hueso, frutales de pepita, berenjena, tomate, lechuga, patata, y vid de vinificación.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué plazos de seguridad deben respetarse en lechuga y patata?",
+      "expected_output": "15 días.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Cuál es la categoría de peligro para los organismos acuáticos según la clasificación del producto?",
+      "expected_output": "Acuático agudo 1 y acuático crónico 1.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué equipo de protección personal se recomienda para la aplicación con mochila en invernadero?",
+      "expected_output": "Guantes de protección química, ropa de protección C1 o tipo 6, y calzado de protección frente a productos químicos.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué enfermedades controla CODIMUR 50 en frutales de pepita?",
+      "expected_output": "Venturia spp.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué volumen de caldo se recomienda al tratar frutales de hueso con este producto?",
+      "expected_output": "Entre 800 y 1000 L/ha.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Cuáles son los principales riesgos para la salud humana clasificados en el documento?",
+      "expected_output": "Toxicidad aguda (oral) categoría 4. Indicación de peligro: H302 - Nocivo en caso de ingestión.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué precauciones se deben tomar para proteger a las abejas al aplicar este producto?",
+      "expected_output": "No aplicar durante la floración, retirar o cubrir las colmenas durante el tratamiento y 5 días después, y evitar aplicación en áreas con pecoreo activo.",
+      "context": "",
+      "explanation": ""
+  },
+  {
+      "input": "¿Qué estrategia de manejo de resistencias se recomienda en el uso de CODIMUR 50?",
+      "expected_output": "Revisar periódicamente la estrategia de manejo, informar sobre programas de monitoreo de sensibilidad y reacciones de cambios en el rendimiento.",
+      "context": "",
+      "explanation": ""
+  }
+]

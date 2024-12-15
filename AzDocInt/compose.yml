@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  azure-form-recognizer-layout:
+    container_name: azure-form-recognizer-layout
+    image: mcr.microsoft.com/azure-cognitive-services/form-recognizer/layout-3.1
+    environment:
+      - EULA=accept
+      - billing=https://oai-rag-tfm-001.cognitiveservices.azure.com/
+      - apiKey=8DIjap8YiwnAFbo7KdRGthlmHywkZO5SDtglJcHwQDpOaxqclDczJQQJ99AKAC5RqLJXJ3w3AAAAACOGVGTw
+    ports:
+      - "8080:5000"
+    networks:
+      - ocrvnet
+networks:
+  ocrvnet:
+    driver: bridge

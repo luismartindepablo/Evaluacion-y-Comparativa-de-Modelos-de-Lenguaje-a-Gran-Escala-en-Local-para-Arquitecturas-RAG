@@ -1,0 +1,74 @@
+[
+    {
+    "input": "¿Cuál es el código del procedimiento regulado por esta orden?",
+    "expected_output": "TR349F.",
+    "context": "Artículo 1, primer párrafo, página 8162.",
+    "explanation": "El código del procedimiento se menciona al principio de la orden."
+    },
+    {
+    "input": "¿Cuál es el plazo para presentar las solicitudes de ayuda?",
+    "expected_output": "Desde el 5 de febrero hasta el 29 de septiembre de 2024.",
+    "context": "Artículo 8, apartado 4, página 8173.",
+    "explanation": "El plazo se establece en la sección de 'Plazo de presentación'."
+    },
+    {
+    "input": "¿Qué tipos de bonos ofrece la orden para los trabajadores autónomos?",
+    "expected_output": "Bono de contratación y bono de formación (opcional).",
+    "context": "Artículo 1, apartado 1, página 8166.",
+    "explanation": "Los bonos se presentan en el primer apartado del artículo sobre 'Objetivos'."
+    },
+    {
+    "input": "¿Qué cantidad de presupuesto inicial está asignada al programa?",
+    "expected_output": "1.350.000 euros.",
+    "context": "Artículo 4, apartado 1, página 8167.",
+    "explanation": "El presupuesto se menciona en el primer apartado sobre la asignación de fondos."
+    },
+    {
+    "input": "¿Qué sucede si una persona beneficiaria no coloca el cartel identificativo de los fondos recibidos?",
+    "expected_output": "Se procederá a un reintegro del 2 % de la ayuda total percibida.",
+    "context": "Artículo 20, apartado 2, página 8183.",
+    "explanation": "El reintegro por no cumplir con la medida de publicidad se detalla en este apartado."
+    },
+    {
+    "input": "¿Cuáles son las condiciones para que una persona sea considerada desempleada según esta orden?",
+    "expected_output": "Debe estar inscrita como demandante de empleo en el Servicio Público de Empleo de Galicia y no tener ocupación según el informe de vida laboral.",
+    "context": "Artículo 5, apartado 1, página 8168.",
+    "explanation": "La definición de persona desempleada se detalla en este apartado."
+    },
+    {
+    "input": "¿Qué sucede si una solicitud se presenta con documentación incompleta o incorrecta?",
+    "expected_output": "El solicitante será requerido para enmendar la solicitud en un plazo máximo de diez días.",
+    "context": "Artículo 11, página 8178.",
+    "explanation": "Este proceso de enmienda se describe en el apartado sobre 'Enmienda de solicitudes'."
+    },
+    {
+    "input": "¿Qué colectivos están excluidos de recibir estas ayudas?",
+    "expected_output": "Los colectivos excluidos incluyen sociedades civiles, comunidades de bienes y autónomos colaboradores, así como aquellos descritos en el Artículo 10 de la Ley 9/2007.",
+    "context": "Artículo 6, apartados 2 y 3, página 8171.",
+    "explanation": "La orden detalla las exclusiones en la sección 'Beneficiarios'."
+    },
+    {
+    "input": "¿Qué medidas de transparencia y difusión deben tomar los beneficiarios?",
+    "expected_output": "Deben dar publicidad a las ayudas recibidas colocando un cartel visible en el lugar de trabajo, conforme al modelo disponible en la sede electrónica de la Xunta de Galicia.",
+    "context": "Artículo 20, apartado 1, punto d, página 8183.",
+    "explanation": "Los requisitos de transparencia están especificados en esta sección."
+    },
+    {
+    "input": "Explica cómo se distribuyen los fondos entre las provincias y qué pasa si hay remanentes en alguna de ellas.",
+    "expected_output": "Los fondos se distribuyen en función del número de personas desempleadas y la evolución del paro, considerando las zonas más desfavorecidas. Los remanentes pueden redistribuirse a otras provincias con solicitudes pendientes.",
+    "context": "Artículo 4, apartado 6, página 8168; Artículo 4, apartado 6, último párrafo, página 8168; Artículo 15, apartado 3, página 8179.",
+    "explanation": "Este proceso se explica en las secciones de distribución y remanentes."
+    },
+    {
+    "input": "Si una persona autónoma solicita tanto el bono de contratación para una persona desempleada de larga duración como el bono de formación, ¿cómo se procesarán los pagos?",
+    "expected_output": "El bono de contratación se paga en un único desembolso tras la concesión. El bono de formación se paga únicamente después de que se justifique la formación.",
+    "context": "Artículo 18, apartado 2, página 8181; Artículo 18, apartado 3, página 8181.",
+    "explanation": "El proceso de pago para ambos bonos se describe aquí, con pasos separados para cada uno."
+    },
+    {
+    "input": "¿Cuál es el propósito principal de esta orden y cuáles son las condiciones para acceder a las ayudas?",
+    "expected_output": "El propósito principal de la orden es fomentar la contratación indefinida y la creación de empleo estable en Galicia mediante ayudas a los trabajadores autónomos. Las ayudas se componen de un bono de contratación para incentivar la contratación de personas desempleadas y un bono de formación para mejorar las habilidades de los trabajadores. Las personas autónomas que deseen acceder a estas ayudas deben cumplir con ciertos requisitos, como contratar a personas desempleadas registradas en el Servicio Público de Empleo de Galicia, presentar la solicitud electrónicamente, y cumplir con los plazos establecidos.",
+    "context": "El resumen se obtiene de varios apartados del documento: Artículo 1 (finalidad y objetivos), Artículo 4 (distribución del presupuesto), Artículo 5 (definiciones y requisitos de los beneficiarios), Artículo 8 (procedimiento de solicitud), Artículo 25 (requisitos de la contratación), Artículo 20 (obligaciones de los beneficiarios).",
+    "explanation": "La respuesta es un resumen de los aspectos clave del documento, que abarca desde los objetivos de la orden hasta los requisitos para acceder a las ayudas y las condiciones específicas de su distribución y uso."  
+    }      
+]

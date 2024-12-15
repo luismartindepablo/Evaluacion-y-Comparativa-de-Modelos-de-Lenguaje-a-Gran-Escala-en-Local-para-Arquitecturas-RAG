@@ -1,0 +1,74 @@
+[
+    {
+      "input": "What is the primary innovation of the Transformer model?",
+      "expected_output": "The Transformer relies entirely on attention mechanisms, dispensing with recurrence and convolutions.",
+      "context": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+      "explanation": "Found in the Abstract."
+    },
+    {
+      "input": "What are the two main components of each encoder layer in the Transformer?",
+      "expected_output": "Multi-head self-attention mechanism and position-wise fully connected feed-forward network.",
+      "context": "Each layer has two sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-wise fully connected feed-forward network.",
+      "explanation": "Located in section 'Encoder and Decoder Stacks'."
+    },
+    {
+      "input": "How does the decoder differ from the encoder in terms of layers?",
+      "expected_output": "The decoder adds a third sub-layer, which performs multi-head attention over the encoder output.",
+      "context": "In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack.",
+      "explanation": "Located in section 'Encoder and Decoder Stacks'."
+    },
+    {
+      "input": "What does the positional encoding in the Transformer do?",
+      "expected_output": "It provides information about the relative or absolute position of tokens in the sequence.",
+      "context": "Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence.",
+      "explanation": "Explained in the 'Positional Encoding' subsection."
+    },
+    {
+      "input": "What formula does the Transformer use for scaled dot-product attention?",
+      "expected_output": "Attention(Q,K,V) = softmax(QK^T / √dk)V.",
+      "context": "Attention(Q,K,V) = softmax(QK^T / √dk)V",
+      "explanation": "Found in the 'Scaled Dot-Product Attention' subsection."
+    },
+    {
+      "input": "How many attention heads are typically used in the Transformer?",
+      "expected_output": "Eight attention heads.",
+      "context": "In this work we employ h = 8 parallel attention layers, or heads.",
+      "explanation": "Discussed in 'Multi-Head Attention'."
+    },
+    {
+      "input": "What regularization methods are used during training?",
+      "expected_output": "Residual dropout, label smoothing, and dropout on embeddings and positional encodings.",
+      "context": "We employ three types of regularization during training: Residual Dropout, Label Smoothing, and Dropout on embeddings.",
+      "explanation": "Located in the 'Regularization' subsection."
+    },
+    {
+      "input": "What is the BLEU score achieved by the Transformer (big) model on the WMT 2014 English-to-German task?",
+      "expected_output": "28.4 BLEU.",
+      "context": "On the WMT 2014 English-to-German translation task, the big transformer model achieves a new state-of-the-art BLEU score of 28.4.",
+      "explanation": "Reported in the 'Machine Translation' subsection of Results."
+    },
+    {
+      "input": "What are the complexity characteristics and maximum path lenght of self-attention layers?",
+      "expected_output": "Self-attention layers have a complexity of O(n^2 · d) per layer and a constant maximum path length.",
+      "context": "Self-Attention O(n^2 · d) O(1) O(1)",
+      "explanation": "Presented in Table 1 of 'Why Self-Attention'."
+    },
+    {
+      "input": "What task demonstrated the Transformer’s ability to generalize beyond machine translation?",
+      "expected_output": "English constituency parsing.",
+      "context": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing.",
+      "explanation": "Explored in the 'English Constituency Parsing' section."
+    },
+    {
+      "input": "What dataset was used for English-to-German translation training?",
+      "expected_output": "The WMT 2014 English-German dataset with 4.5 million sentence pairs.",
+      "context": "We trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million sentence pairs.",
+      "explanation": "Mentioned in 'Training Data and Batching'."
+    },
+    {
+      "input": "What does Table 2 compare in terms of Transformer performance?",
+      "expected_output": "The BLEU scores and training costs of the Transformer compared to previous state-of-the-art models.",
+      "context": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models.",
+      "explanation": "Found in Table 2 in the Results section."
+    }
+]  
