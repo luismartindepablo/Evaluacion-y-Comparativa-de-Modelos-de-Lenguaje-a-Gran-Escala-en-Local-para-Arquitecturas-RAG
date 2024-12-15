@@ -1,6 +1,6 @@
 # Proyecto de TFM
 
-Este proyecto forma parte del Trabajo de Fin de Máster (TFM) en el área de Ciencia de Datos de la Universitat Oberta de Catalunya (UOC). El proyecto titulado "Evaluación y Comparativa de Modelos de Lenguaje a Gran Escala (LLM) en Local para Arquitecturas RAG: Efectividad, Privacidad y Autonomía" tiene como objetivo evaluar la efectividad de los Modelos de Lenguaje de Gran Escala (LLM) ejecutados en entornos locales dentro de arquitecturas de Generación Aumentada por Recuperación (RAG).
+Este proyecto forma parte del Trabajo de Fin de Máster (TFM) en el área de Ciencia de Datos de la Universitat Oberta de Catalunya (UOC). El proyecto titulado *"Evaluación y Comparativa de Modelos de Lenguaje a Gran Escala (LLM) en Local para Arquitecturas RAG: Efectividad, Privacidad y Autonomía"* tiene como objetivo evaluar la efectividad de los Modelos de Lenguaje de Gran Escala (LLM) ejecutados en entornos locales dentro de arquitecturas de Generación Aumentada por Recuperación (RAG).
 
 ## Estructura del Proyecto
 
