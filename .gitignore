@@ -125,4 +125,4 @@ cython_debug/
 .venv_eval
 ChromaDB
 DeepEval/TestResults
-DeepEval/BackUp GPT Eval
+*.DS_Store*
