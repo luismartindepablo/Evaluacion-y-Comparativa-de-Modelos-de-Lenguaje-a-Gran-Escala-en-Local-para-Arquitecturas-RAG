@@ -1,0 +1,74 @@
+[
+    {
+        "input": "¿Qué porcentaje de empresarios españoles sitúa la atracción y fidelización del talento como una de sus principales prioridades estratégicas para este año?",
+        "expected_output": "El 60%.",
+        "context": "Diapositiva 2, parte inferior del texto, en el párrafo que comienza con 'No resulta extraño, por tanto, que el 60% de empresarios españoles sitúe...'.",
+        "explanation": "El texto menciona explícitamente el 60% como el porcentaje de empresarios que consideran la atracción y fidelización del talento una prioridad estratégica."
+    },
+    {
+        "input": "¿Qué directiva va a facilitar la reflexión de las compañías del sector sobre cuestiones de sostenibilidad?",
+        "expected_output": "La reciente directiva de información sobre sostenibilidad (CSRD).",
+        "context": "Diapositiva 6, en el texto de la derecha, párrafo que comienza con 'La reciente directiva de información sobre sostenibilidad (CSRD)...'.",
+        "explanation": "El texto menciona explícitamente la directiva CSRD como el marco normativo que facilitará la reflexión de las compañías sobre asuntos de sostenibilidad."
+    },
+    {
+        "input": "¿Qué porcentaje de las empresas encuestadas cuenta con una unidad organizativa centralizada que lidera, gestiona y coordina las cuestiones ESG?",
+        "expected_output": "El 71%.",
+        "context": "Diapositiva 9, en la parte superior derecha, se indica que el 71% de las empresas cuenta con una unidad organizativa centralizada que lidera, gestiona y coordina las cuestiones ESG.",
+        "explanation": "La cifra del 71% se menciona explícitamente en el recuadro superior derecho de la imagen."
+    },
+    {
+        "input": "Según el Director de Comunicación de Coca-Cola, ¿cuál debe ser el objetivo en relación con la sostenibilidad y el ESG en las empresas?",
+        "expected_output": "Que la sostenibilidad y el ESG se integren de forma transversal en el negocio, aterrizando su impacto en todas las disciplinas.",
+        "context": "Diapositiva 9, en la cita de Pedro Fernández (Director de Comunicación, Coca-Cola), la cual aparece en la parte inferior derecha de la diapositiva.",
+        "explanation": "El texto atribuido a Pedro Fernández indica explícitamente que, más allá de la existencia de un departamento específico, el objetivo es integrar las cuestiones de sostenibilidad y ESG de manera transversal en toda la empresa."
+    },
+    {
+        "input": "¿Qué porcentaje de las respuestas indica que la demanda de perfiles ESG se ha intensificado de manera muy intensa en el mercado español en los últimos tres años?",
+        "expected_output": "El 43%.",
+        "context": "Diapositiva 11, en el gráfico circular a la derecha del texto, la sección 'Sí, de manera muy intensa' corresponde al 43%.",
+        "explanation": "El gráfico muestra tres opciones: 'Sí, de manera muy intensa' (43%), 'Sí, aunque moderadamente' (42%), y 'No he observado una mayor demanda' (15%)."
+    },
+    {
+        "input": "¿Qué tipo de 'skills' ambientales resultan ser tanto las más demandadas como las más desarrolladas por las compañías?",
+        "expected_output": "Las relacionadas con el cambio climático, la descarbonización y la estrategia Net Zero.",
+        "context": "Diapositiva 16, las 'skills' ambientales con mayor demanda (68%) y también un alto nivel de desarrollo (52%) corresponden a cambio climático, descarbonización y estrategia Net Zero.",
+        "explanation": "La imagen muestra que las 'skills' vinculadas al cambio climático, la descarbonización y la estrategia Net Zero son las más demandadas y, al mismo tiempo, las más desarrolladas por las empresas."
+    },
+    {
+        "input": "¿Cuáles son los cuatro sectores donde más se está incrementando la demanda de 'skills' ambientales, comparando con el año anterior?",
+        "expected_output": "Sector tecnológico/informático, Servicios de Ingeniería Civil, Servicios de Consultoría y Servicios Ambientales.",
+        "context": "Diapositiva 16, en la parte inferior izquierda del gráfico, se listan cuatro sectores con porcentajes de aumento de demanda: Tecnológico/Informático (43%), Ingeniería Civil (23%), Consultoría (27%) y Ambientales (17%).",
+        "explanation": "La imagen presenta cuatro sectores con porcentajes de incremento en la demanda de 'skills': Tecnológico/Informático (43%), Ingeniería Civil (23%), Consultoría (27%) y Ambientales (17%)."
+    },
+    {
+        "input": "¿Por qué resultan especialmente relevantes las 'soft skills' en la implementación de la estrategia ESG?",
+        "expected_output": "Porque las soft skills son esenciales para comprender y desplegar el propósito ESG, permitiendo liderar con integridad, generar impacto responsable y mantener relaciones de confianza con diversos grupos de interés, lo que evita riesgos en la correcta aplicación de la estrategia ESG.",
+        "context": "Diapositiva 19, en la cita atribuida a José Arrechea (Talent Acquisition & HRBP de Samsung), se menciona que las soft skills son clave para entender y desplegar el propósito ESG, liderar con integridad y mantener relaciones de confianza con stakeholders.",
+        "explanation": "El texto indica que la falta de soft skills suficientemente desarrolladas puede suponer un riesgo para las compañías a la hora de implementar correctamente la estrategia ESG."
+    },
+    {
+        "input": "¿Cuál es el principal reto que las empresas identifican a la hora de realizar el upskilling/reskilling en ESG y qué porcentaje lo considera el mayor obstáculo?",
+        "expected_output": "La escasez de oferta formativa/certificaciones ESG en el mercado, señalada por el 56% de las empresas.",
+        "context": "Diapositiva 24, en el texto se indica que el 56% considera la escasez de oferta formativa/certificaciones ESG en el mercado como uno de los mayores retos para el upskilling/reskilling.",
+        "explanation": "La imagen muestra un gráfico donde se enumeran varios retos, y el porcentaje más alto (56%) corresponde a la escasez de oferta formativa/certificaciones ESG."
+    },
+    {
+        "input": "¿Qué factores se han vuelto determinantes para la sostenibilidad de las empresas en la actualidad?",
+        "expected_output": "La digitalización con foco en las personas, la preocupación por el bienestar de los empleados, una gobernanza transparente y ejemplar, y la sostenibilidad a lo largo de la cadena de valor.",
+        "context": "Diapositiva 27, en el texto de la izquierda, Ana Sainz Martín menciona que, además del cambio impulsado por los factores ESG, la digitalización centrada en las personas, el bienestar de los empleados, la gobernanza transparente y ejemplar, y la sostenibilidad en toda la cadena de valor se han convertido en elementos determinantes.",
+        "explanation": "El pasaje describe que en los últimos años se ha producido una transformación impulsada por factores ESG, entre ellos la digitalización centrada en las personas, el bienestar de los empleados, la gobernanza transparente y la sostenibilidad de la cadena de valor, destacando su importancia para la sostenibilidad empresarial."
+    },
+    {
+        "input": "¿Cuáles son las 12 iniciativas específicas mencionadas para abordar el gap del talento ESG?",
+        "expected_output": "1. Integración estratégica de skills ESG; 2. Impulsar itinerarios de aprendizaje ESG; 3. Programas de mentoría en torno a la cultura ESG; 4. Desarrollar microcredenciales ESG; 5. Programas que impulsen la alianza empresa-universidad; 6. Atraer talento sénior para formar a nuevos perfiles; 7. Redefinir la propuesta de valor del empleado; 8. Programas de apoyo para la regulación ESG; 9. Implicar a las pymes a través del upskilling y reskilling; 10. Impulsar un ‘Kit ESG’ enfocado a pymes; 11. Hacia un catálogo de soluciones en torno al fortalecimiento sectorial y el desarrollo del talento; 12. Involucrar al Consejo en la gestión de talento ESG.",
+        "context": "Diapositiva 29-32, iniciativas numeradas desde la 'Integración estratégica de skills ESG' (1) hasta 'Involucrar al Consejo en la gestión de talento ESG' (12).",
+        "explanation": "La información se encuentra en la sección '12 iniciativas para impulsar el talento ESG', donde se listan todas las acciones con un título y descripción."
+    },
+    {
+        "input": "En la iniciativa 05 'Programas que impulsen la alianza empresa-universidad', ¿qué tipo de colaboraciones y actividades se proponen entre instituciones universitarias y empresas, y qué objetivo persiguen en relación con el talento ESG?",
+        "expected_output": "Se proponen colaboraciones estratégicas entre universidades y empresas para desarrollar programas académicos enfocados en ESG, facilitando pasantías, proyectos de investigación y acceso a recursos empresariales. Estas actividades tienen como objetivo enriquecer la educación de los estudiantes con experiencias prácticas y prepararles para abordar desafíos contemporáneos en sostenibilidad empresarial, fomentando así un talento ESG más capacitado.",
+        "context": "Diapositiva 30, en el texto de la iniciativa 05, se menciona que estas colaboraciones permitirán integrar conocimientos prácticos y experiencias del mundo real en el currículo académico, preparando a los estudiantes para abordar desafíos contemporáneos en sostenibilidad.",
+        "explanation": "La iniciativa 05 detalla que las alianzas entre instituciones universitarias y empresas proporcionan educación enfocada en ESG con experiencias prácticas (pasantías, proyectos, recursos) para mejorar la comprensión y preparación de los futuros profesionales en materia de sostenibilidad."
+    }
+]
