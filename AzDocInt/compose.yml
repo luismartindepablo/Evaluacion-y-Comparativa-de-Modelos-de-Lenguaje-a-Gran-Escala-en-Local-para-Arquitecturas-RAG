@@ -6,7 +6,7 @@ services:
     environment:
       - EULA=accept
       - billing=https://oai-rag-tfm-001.cognitiveservices.azure.com/
-      - apiKey=8DIjap8YiwnAFbo7KdRGthlmHywkZO5SDtglJcHwQDpOaxqclDczJQQJ99AKAC5RqLJXJ3w3AAAAACOGVGTw
+      - apiKey=YOUR_DOCUMENT_INTELLIGENCE_API_KEY
     ports:
       - "8080:5000"
     networks:

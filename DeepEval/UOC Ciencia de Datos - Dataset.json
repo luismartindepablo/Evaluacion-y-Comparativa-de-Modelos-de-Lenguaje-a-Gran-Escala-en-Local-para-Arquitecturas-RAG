@@ -1,0 +1,74 @@
+[
+    {
+        "input": "¿Cuántos créditos ECTS tiene el máster universitario de Ciencia de Datos?",
+        "expected_output": "60 créditos ECTS entre asignaturas obligatorias y optativas y, además, 12 créditos ECTS de asignaturas niveladoras.",
+        "context": "El máster universitario de Ciencia de Datos tiene una duración mínima estimada de un año académico, distribuido en dos cuatrimestres, con una carga total de 60 créditos ECTS.",
+        "explanation": "Se encuentra en la sección 'Duración', párrafo inicial."
+    },
+    {
+        "input": "¿Qué fecha de inicio tiene el máster universitario de Ciencia de Datos?",
+        "expected_output": "19 de febrero de 2025.",
+        "context": "Inicio 19 feb. 2025.",
+        "explanation": "Ubicado en la portada del documento, en el bloque informativo inicial."
+    },
+    {
+        "input": "¿Qué herramientas de análisis de datos masivos se utilizan en el máster?",
+        "expected_output": "Apache Hadoop y Apache Spark.",
+        "context": "Nuestras herramientas de referencia en la explotación y análisis de datos masivos son Apache Hadoop y Apache Spark.",
+        "explanation": "Se encuentra en la sección 'Recursos de aprendizaje', en el listado de herramientas utilizadas."
+    },
+    {
+        "input": "¿Qué lenguajes de programación se utilizan principalmente en el máster?",
+        "expected_output": "R y Python.",
+        "context": "Nuestras herramientas de referencia en análisis estadístico, minería de datos y aprendizaje automático (machine learning) son R y Python.",
+        "explanation": "Localizado en la sección 'Recursos de aprendizaje', párrafo que describe los lenguajes utilizados."
+    },
+    {
+        "input": "¿Qué asignatura final se debe superar para concluir los estudios?",
+        "expected_output": "Trabajo final de máster.",
+        "context": "En el máster universitario de Ciencia de Datos el trabajo final tiene 12 créditos ECTS.",
+        "explanation": "Ubicado en la sección 'Trabajo final de máster', donde se detalla la asignatura."
+    },
+    {
+        "input": "¿Qué organismo acredita la calidad de este máster universitario?",
+        "expected_output": "La AQU (Agència per a la Qualitat del Sistema Universitari de Catalunya).",
+        "context": "La calidad de este programa está avalada por la AQU (Agència per a la Qualitat del Sistema Universitari de Catalunya).",
+        "explanation": "Encontrado en la sección 'Calidad de la titulación', primer párrafo."
+    },
+    {
+        "input": "¿Qué conocimientos previos de matemáticas se requieren para acceder al máster?",
+        "expected_output": "Fundamentos básicos de probabilidad y estadística y fundamentos básicos de álgebra lineal.",
+        "context": "Conocimientos básicos de matemáticas, con una dedicación mínima de 150 horas. Se exige: fundamentos básicos de probabilidad y estadística y fundamentos básicos de álgebra lineal.",
+        "explanation": "Ubicado en la sección 'Requisitos de acceso', bajo el apartado de conocimientos previos."
+    },
+    {
+        "input": "¿Qué titulación oficial permite acceder al máster en Ciencia de Datos?",
+        "expected_output": "Una titulación oficial de nivel de grado o superior en ingeniería informática, matemáticas, estadística, física, o ámbitos similares.",
+        "context": "Para cursar el máster es necesario tener una titulación oficial de nivel de grado o superior perteneciente a uno de los ámbitos siguientes: Ingeniería informática y de sistemas, Matemáticas y Estadística, Física y Astronomía...",
+        "explanation": "Se encuentra en la sección 'Perfil de ingreso recomendado', primer párrafo."
+    },
+    {
+        "input": "¿Qué dos asignaturas forman parte de los complementos de formación obligatorios?",
+        "expected_output": "Programación para la ciencia de datos y Bases de datos analíticas.",
+        "context": "Se requerirá a todos los estudiantes la superación obligatoria de los siguientes créditos de formación compensatoria: Programación para la ciencia de datos (6 créditos ECTS) y Bases de datos analíticas (6 créditos ECTS).",
+        "explanation": "Ubicado en la sección 'Complementos de formación', segundo párrafo."
+    },
+    {
+        "input": "¿Qué salidas profesionales ofrece el máster en Ciencia de Datos?",
+        "expected_output": "Científico de datos, analista de datos, analista de big data, jefe de proyecto o emprendedor de negocios basados en el análisis de datos.",
+        "context": "Los titulados del máster universitario de Ciencia de Datos pueden desarrollar los siguientes perfiles profesionales: científico de datos (data scientists), analista de datos, analista de big data, responsable, jefe de proyecto...",
+        "explanation": "Localizado en la sección 'Salidas profesionales', primer párrafo."
+    },
+    {
+        "input": "¿Cuántos créditos ECTS tiene el trabajo final del máster universitario de Ciencia de Datos?",
+        "expected_output": "12 créditos ECTS.",
+        "context": "El trabajo final tiene 12 créditos ECTS.",
+        "explanation": "Encontrado en la sección 'Trabajo final de máster', primer párrafo."
+    },
+    {
+        "input": "¿Quién es el director del máster universitario de Ciencia de Datos de la UOC?",
+        "expected_output": "Julià Minguillón Alfonso.",
+        "context": "Doctor en Ingeniería Informática por la Universidad Autónoma de Barcelona (UAB). Su actividad docente se centra en asignaturas relacionadas con la gestión, la minería y la visualización de datos.",
+        "explanation": "Se encuentra en la sección 'Profesorado', en la descripción de la dirección del programa."
+    }
+]
