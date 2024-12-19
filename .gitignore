@@ -126,4 +126,4 @@ cython_debug/
 ChromaDB
 DeepEval/TestResults
 *.DS_Store*
-*.deep_eval*
+*.deepeval*
